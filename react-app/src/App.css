@@ -64,8 +64,9 @@ nav{
 .main{
   display: flex;
   padding: 50px 200px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
 }
 
 
@@ -81,6 +82,7 @@ nav{
 
 .hero{
   width: 100%;
+
 }
 
 
@@ -144,4 +146,39 @@ nav{
 
 .skill-img img{
   width: 100%;
+}
+
+
+.contact{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+
+}
+
+
+.contact-brand {
+  font-size: 200px;
+  font-weight: bold;
+}
+
+.contact-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:50px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+hr{
+  width:90%;
+  margin: auto;
+
+}
+footer{
+  text-align: center;
+  font-weight: 800;
+  padding: 20px;
 }
