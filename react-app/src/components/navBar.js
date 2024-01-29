@@ -17,6 +17,7 @@ function NavBar() {
                 <a className='hire-btn' href='#'>Hire me!</a>
             </div>
         </nav>
+        
     );
 }
 
